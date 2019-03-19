@@ -1,0 +1,13 @@
+.maindiv {
+  display: flex;
+  justify-content: center;
+}
+.out-class {
+  background-color: #ddd;
+}
+.convert-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+}

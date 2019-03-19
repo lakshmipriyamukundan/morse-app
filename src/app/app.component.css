@@ -1,25 +1,15 @@
 .header {
   position: fixed;
-  height: 60px;
   width: 100%;
   background-color: #609;
   top: 0;
   text-align: left;
   color: azure;
-  padding-left: 20px;
+  padding: 15px;
 }
-
+h1 {
+  margin: 0;
+}
 section {
   margin-top: 80px;
-}
-
-.button {
-  background-color: #4caf50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
 }

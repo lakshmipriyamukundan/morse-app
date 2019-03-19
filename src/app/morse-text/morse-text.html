@@ -1,0 +1,23 @@
+<div class="maindiv">
+  <div>
+    <p>Write your text</p>
+    <textarea cols="50" rows="8" (input)="str = $event.target.value"></textarea>
+    <p>
+      <label>Operation : </label>
+      <select (change)="selectOperation($event.target.value)">
+        <option value="toText">--Morse to Text--</option>
+        <option value="toMorse">--Text to Morse--</option>
+      </select>
+    </p>
+    <p>
+      <button class="convert-button" (click)="submit()">
+        Submit
+      </button>
+    </p>
+    <p>
+      <textarea class="out-class" cols="50" rows="8" readonly>{{
+        otText
+      }}</textarea>
+    </p>
+  </div>
+</div>
