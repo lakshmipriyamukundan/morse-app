@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MorseTextComponent } from './morse-text/morse-text.component';
+import { MorseOutputComponent } from './morse-output/morse-output.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MorseTextComponent,
+    MorseOutputComponent
   ],
   imports: [
     BrowserModule,
